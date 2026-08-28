@@ -1,0 +1,58 @@
+@use './variables' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: $paper;
+  font-family: 'Raleway', sans-serif;
+  color: $brown-dark;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+button {
+  border: none;
+}
+
+button,
+.card,
+.widget,
+.notice-box {
+  transition: $transition;
+}
+
+button:hover,
+.card:hover,
+.widget:hover,
+.notice-box:hover {
+  transform: translateY(-5px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'MedievalSharp', cursive;
+}

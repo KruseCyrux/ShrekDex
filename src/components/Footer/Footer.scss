@@ -1,0 +1,122 @@
+@use '../../styles/variables' as *;
+
+.footer {
+  background: $green-dark;
+  color: $paper-light;
+  padding: 3rem 2rem 1.5rem;
+  border-top: 5px solid $gold;
+
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .footer-brand {
+    h2 {
+      font-size: 2rem;
+      color: $gold;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      opacity: 0.85;
+    }
+  }
+
+  .footer-social {
+    text-align: right;
+
+    h3 {
+      margin-bottom: 1rem;
+      color: $paper;
+    }
+  }
+
+  .socials {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.75rem;
+
+    a {
+      width: 44px;
+      height: 44px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background: $green-primary;
+      color: $paper-light;
+
+      border: 2px solid transparent;
+      border-radius: 50%;
+
+      transition:
+        transform 0.25s ease,
+        background 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+
+      svg {
+        width: 20px;
+        height: 20px;
+        fill: currentColor;
+      }
+
+      &:hover {
+        background: $gold;
+        color: $brown-dark;
+        border-color: $paper-light;
+
+        transform:
+          translateY(-6px)
+          rotate(8deg)
+          scale(1.08);
+
+        box-shadow:
+          0 8px 15px rgba(0, 0, 0, 0.25);
+      }
+    }
+  }
+
+  .footer-bottom {
+    max-width: 1200px;
+    margin: 2rem auto 0;
+    padding-top: 1.5rem;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+
+    text-align: center;
+    font-size: 0.9rem;
+
+    .signature {
+      color: $gold;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .footer {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .footer-social {
+      text-align: center;
+    }
+
+    .socials {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}

@@ -1,0 +1,202 @@
+@use '../../styles/variables' as *;
+
+.sidebar {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 1.25rem;
+
+  position: sticky;
+
+  top: 1.5rem;
+}
+
+.widget {
+  background: $paper-light;
+
+  padding: 1.25rem;
+
+  border-radius: 10px;
+
+  border-top: 4px solid $green-primary;
+
+  box-shadow: $shadow;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+
+  h3 {
+    color: $green-dark;
+
+    font-size: 1.35rem;
+
+    margin-bottom: 1rem;
+
+    padding-bottom: 0.6rem;
+
+    border-bottom:
+      1px solid rgba(74, 50, 33, 0.15);
+  }
+
+  p {
+    font-size: 0.92rem;
+
+    line-height: 1.7;
+
+    margin-bottom: 0.8rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+
+    border-color: $gold;
+
+    box-shadow:
+      0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.search-widget {
+  border-top-color: $gold;
+}
+
+.search-box {
+  display: flex;
+
+  align-items: center;
+
+  gap: 0.6rem;
+
+  background: white;
+
+  padding: 0.7rem 0.8rem;
+
+  border: 2px solid
+    rgba(63, 90, 26, 0.25);
+
+  border-radius: 8px;
+
+  color: $green-dark;
+
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+
+  &:focus-within {
+    border-color: $green-primary;
+
+    box-shadow:
+      0 0 0 3px
+      rgba(107, 142, 35, 0.15);
+
+    transform: translateY(-2px);
+  }
+
+  input {
+    width: 100%;
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+    color: $brown-dark;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 0.9rem;
+
+    &::placeholder {
+      color: rgba(74, 50, 33, 0.55);
+    }
+  }
+}
+
+.widget ul {
+  list-style: none;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 0.5rem;
+
+  li {
+    background: rgba(107, 142, 35, 0.08);
+
+    padding: 0.65rem 0.75rem;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    transition:
+      transform 0.2s ease,
+      background 0.2s ease,
+      color 0.2s ease;
+
+    &:hover {
+      background: $green-primary;
+
+      color: white;
+
+      transform: translateX(5px);
+    }
+  }
+}
+
+.statistics {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 0.5rem;
+
+  > div {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0.6rem 0.7rem;
+
+    background:
+      rgba(107, 142, 35, 0.08);
+
+    border-radius: 6px;
+
+    transition:
+      transform 0.2s ease,
+      background 0.2s ease;
+
+    strong {
+      color: $green-dark;
+
+      font-family: 'MedievalSharp', cursive;
+    }
+
+    &:hover {
+      background:
+        rgba(212, 160, 23, 0.2);
+
+      transform: translateX(5px);
+    }
+  }
+}
+
+@media (max-width: 900px) {
+
+  .sidebar {
+    position: static;
+  }
+}
