@@ -1,0 +1,45 @@
+@use '../../styles/variables' as *;
+
+.movies-page {
+  padding: 0.5rem 0;
+}
+
+.page-heading {
+  margin-bottom: 2rem;
+
+  span {
+    color: $green-primary;
+
+    font-family: 'MedievalSharp', cursive;
+
+    font-size: 0.85rem;
+
+    letter-spacing: 2px;
+  }
+
+  h1 {
+    color: $green-dark;
+
+    font-size: 3rem;
+
+    margin: 0.3rem 0 0.6rem;
+  }
+
+  p {
+    line-height: 1.7;
+
+    max-width: 700px;
+  }
+}
+
+.movies-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fill,
+      minmax(220px, 1fr)
+    );
+
+  gap: 1.5rem;
+}

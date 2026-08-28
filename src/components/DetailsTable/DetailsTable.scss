@@ -1,0 +1,54 @@
+@use '../../styles/variables' as *;
+
+.details-table {
+  overflow: hidden;
+
+  border-radius: 10px;
+
+  box-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.details-row {
+  display: grid;
+
+  grid-template-columns: 180px 1fr;
+
+  &:nth-child(odd) {
+    background: rgba(107, 142, 35, 0.08);
+  }
+
+  &:hover {
+    background: rgba(212, 160, 23, 0.18);
+  }
+}
+
+.details-label,
+.details-value {
+  padding: 0.9rem 1rem;
+}
+
+.details-label {
+  font-family: 'MedievalSharp', cursive;
+
+  color: $green-dark;
+
+  font-weight: 700;
+}
+
+.details-value {
+  border-left:
+    1px solid rgba(74, 50, 33, 0.1);
+}
+
+@media (max-width: 600px) {
+
+  .details-row {
+    grid-template-columns: 1fr;
+  }
+
+  .details-value {
+    border-left: none;
+    padding-top: 0;
+  }
+}

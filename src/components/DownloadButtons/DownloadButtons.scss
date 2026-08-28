@@ -1,0 +1,47 @@
+@use '../../styles/variables' as *;
+
+.downloads {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(180px, 1fr));
+
+  gap: 0.8rem;
+}
+
+.download-button {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.5rem;
+
+  padding: 0.9rem 1rem;
+
+  background: $green-primary;
+
+  color: white;
+
+  border-radius: 8px;
+
+  font-family: 'MedievalSharp', cursive;
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease;
+
+  &:hover {
+    background: $green-light;
+
+    color: $brown-dark;
+
+    transform:
+      translateY(-5px)
+      scale(1.02);
+
+    box-shadow:
+      0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+}

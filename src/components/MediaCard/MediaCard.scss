@@ -1,0 +1,124 @@
+@use '../../styles/variables' as *;
+
+.media-card {
+  background: $paper-light;
+
+  border-radius: 14px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.18);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  &:hover {
+    transform:
+      translateY(-10px)
+      scale(1.02);
+
+    box-shadow:
+      0 18px 35px rgba(0, 0, 0, 0.28);
+  }
+}
+
+.media-card-link {
+  display: block;
+}
+
+.media-card-image {
+  position: relative;
+
+  overflow: hidden;
+
+  background: $green-dark;
+
+  img {
+    width: 100%;
+    height: auto;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition:
+      transform 0.5s ease;
+  }
+}
+
+.media-card:hover {
+
+  .media-card-image img {
+    transform: scale(1.08);
+  }
+}
+
+.media-card-type {
+  position: absolute;
+
+  top: 12px;
+  left: 12px;
+
+  background: $green-dark;
+
+  color: $paper-light;
+
+  padding: 0.4rem 0.7rem;
+
+  border-radius: 6px;
+
+  font-family: 'MedievalSharp', cursive;
+
+  font-size: 0.8rem;
+}
+
+.media-card-content {
+  padding: 1.2rem;
+
+  h3 {
+    color: $green-dark;
+
+    font-size: 1.5rem;
+
+    margin-bottom: 0.25rem;
+  }
+
+  p {
+    margin-top: 0.8rem;
+
+    font-size: 0.9rem;
+
+    line-height: 1.6;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+  }
+}
+
+.media-card-year {
+  color: $gold;
+
+  font-weight: 700;
+}
+
+.media-card-more {
+  display: inline-block;
+
+  margin-top: 1rem;
+
+  color: $green-primary;
+
+  font-family: 'MedievalSharp', cursive;
+
+  transition:
+    transform 0.2s ease;
+
+  &:hover {
+    transform: translateX(5px);
+  }
+}
