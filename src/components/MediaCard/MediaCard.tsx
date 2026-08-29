@@ -4,6 +4,9 @@ import './MediaCard.scss';
 
 interface MediaCardProps {
   id: string;
+
+  category: string;
+
   title: string;
   year: number;
   cover: string;
@@ -13,17 +16,18 @@ interface MediaCardProps {
 
 const MediaCard = ({
   id,
+  category,
   title,
   year,
   cover,
   description,
   type,
-}: MediaCardProps) => {
+}: MediaCardProps) => {  
   return (
     <article className="media-card">
 
       <Link
-        to={`/movies/${id}`}
+        to={`/${category}/${id}`}
         className="media-card-link"
       >
 

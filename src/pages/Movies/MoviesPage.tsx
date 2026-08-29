@@ -30,8 +30,10 @@ const MoviesPage = () => {
       </div>
 
       <DownloadNotice
-        title="⚠️ Información sobre Terabox"
-        message={teraboxNotice} 
+        title={teraboxNotice.title}
+        message={teraboxNotice.message}
+        link={teraboxNotice.link}
+        linkLabel={teraboxNotice.linkLabel}
       />
 
       <div className="movies-grid">
@@ -41,6 +43,7 @@ const MoviesPage = () => {
           <MediaCard
             key={movie.id}
             id={movie.id}
+            category="movies"
             title={movie.title}
             year={movie.year}
             cover={movie.cover}

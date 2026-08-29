@@ -1,0 +1,49 @@
+@use '../../styles/variables' as *;
+
+.spin-offs-page {
+
+  width: 100%;
+
+}
+
+.spin-offs-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fill,
+      minmax(220px, 1fr)
+    );
+
+  gap: 1.5rem;
+
+  margin-top: 2rem;
+
+  @media (max-width: 900px) {
+
+    grid-template-columns:
+      repeat(
+        auto-fill,
+        minmax(180px, 1fr)
+      );
+
+  }
+
+  @media (max-width: 600px) {
+
+    grid-template-columns:
+      repeat(2, 1fr);
+
+    gap: 1rem;
+
+  }
+
+  @media (max-width: 420px) {
+
+    grid-template-columns:
+      1fr;
+
+  }
+
+}

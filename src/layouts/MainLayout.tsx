@@ -7,6 +7,9 @@ import Footer from '../components/Footer/Footer';
 import MoviesPage
   from '../pages/Movies/MoviesPage';
 
+import SpinOffsPage
+  from '../pages/SpinOffs/SpinOffsPage';
+
 import MediaDetail
   from '../pages/MediaDetail/MediaDetail';
 
@@ -23,8 +26,18 @@ const MainLayout = () => {
       return <MoviesPage />;
     }
 
+    //Página de spin-offs
+    if (location.pathname === '/spin-offs') {
+      return <SpinOffsPage />;
+    }
+
     // Ficha individual de una película
     if (location.pathname.startsWith('/movies/')) {
+      return <MediaDetail />;
+    }
+
+    // Ficha individual de un spin-off
+    if (location.pathname.startsWith('/spin-offs/')) {
       return <MediaDetail />;
     }
 

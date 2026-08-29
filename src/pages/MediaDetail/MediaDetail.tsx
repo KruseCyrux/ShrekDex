@@ -1,6 +1,11 @@
-import { Link, useParams } from 'react-router-dom';
+import {
+  Link,
+  useParams,
+  useLocation,
+} from 'react-router-dom';
 
 import movies from '../../data/movies.json';
+import spinOffs from '../../data/spinOffs.json';
 
 import GalleryCarousel
   from '../../components/GalleryCarousel/GalleryCarousel';
@@ -17,20 +22,51 @@ const MediaDetail = () => {
 
   const { id } = useParams();
 
-  const movie = movies.find(
+  const location = useLocation();
+
+  const getCollection = () => {
+
+    if (
+      location.pathname.startsWith('/movies/')
+    ) {
+      return movies;
+    }
+
+    if (
+      location.pathname.startsWith('/spin-offs/')
+    ) {
+      return spinOffs;
+    }
+
+    return [];
+  };
+
+  const collection = getCollection();
+
+  const media = collection.find(
     (item) => item.id === id
   );
 
-  if (!movie) {
+  const backPath =
+    location.pathname.startsWith('/spin-offs/')
+      ? '/spin-offs'
+      : '/movies';
+
+  const backLabel =
+    location.pathname.startsWith('/spin-offs/')
+      ? '← Volver a Spin-Offs'
+      : '← Volver a películas';
+
+  if (!media) {
     return (
       <section className="not-found">
 
         <h1>
-          Película no encontrada
+          Contenido no encontrado
         </h1>
 
-        <Link to="/movies">
-          ← Volver a películas
+        <Link to={backPath}>
+          {backLabel}
         </Link>
 
       </section>
@@ -41,20 +77,20 @@ const MediaDetail = () => {
     <article className="media-detail">
 
       <Link
-        to="/movies"
+        to={backPath}
         className="back-link"
       >
-        ← Volver a películas
+        {backLabel}
       </Link>
 
       <header className="detail-heading">
 
         <span>
-          {movie.type} · {movie.year}
+          {media.type} · {media.year}
         </span>
 
         <h1>
-          {movie.title}
+          {media.title}
         </h1>
 
       </header>
@@ -64,8 +100,8 @@ const MediaDetail = () => {
         <div className="detail-cover">
 
           <img
-            src={movie.cover}
-            alt={`Póster de ${movie.title}`}
+            src={media.cover}
+            alt={`Póster de ${media.title}`}
           />
 
         </div>
@@ -73,11 +109,11 @@ const MediaDetail = () => {
         <div className="detail-description">
 
           <h2>
-            Sobre la película
+            Descripción
           </h2>
 
           <p>
-            {movie.description}
+            {media.description}
           </p>
 
         </div>
@@ -91,8 +127,8 @@ const MediaDetail = () => {
         </h2>
 
         <GalleryCarousel
-          images={movie.gallery}
-          title={movie.title}
+          images={media.gallery}
+          title={media.title}
         />
 
       </section>
@@ -104,7 +140,7 @@ const MediaDetail = () => {
         </h2>
 
         <DetailsTable
-          details={movie.details}
+          details={media.details}
         />
 
       </section>
@@ -116,7 +152,7 @@ const MediaDetail = () => {
         </h2>
 
         <DownloadButtons
-          downloads={movie.downloads}
+          downloads={media.downloads}
         />
 
       </section>
