@@ -7,11 +7,12 @@
 
     "cover": "/images/Shrek-2001/ShrekPoster.png",
 
-    "description": "Un ogro que vive tranquilamente en su pantano ve cómo su hogar es invadido por numerosas criaturas de cuentos de hadas. Para recuperar su tranquilidad, deberá embarcarse en una aventura que cambiará su vida para siempre.",
+    "description": "Shrek es un ogro solitario que vive tranquilamente en su pantano, hasta que su hogar se llena de criaturas de cuentos de hadas expulsadas de su reino por orden de Lord Farquaad. Para recuperar su tranquilidad, Shrek hace un trato con Farquaad: rescatar a la princesa Fiona, quien está encerrada en una torre custodiada por un dragón. Durante el viaje, Shrek cuenta con la compañía de un Burro muy hablador. Sin embargo, lo que comienza como una misión sencilla termina convirtiéndose en una aventura que hará que Shrek descubra el amor, la amistad y que las apariencias pueden engañar. Shrek es una comedia de fantasía que parodia los cuentos de hadas y sus estereotipos.",
 
     "gallery": [
       "/images/Shrek-2001/1.png",
-      "/images/Shrek-2001/2.png"
+      "/images/Shrek-2001/2.png",
+      "/images/Shrek-2001/3.png"
     ],
 
     "details": {
@@ -19,6 +20,147 @@
       "Año": "2001",
       "Duración": "90 minutos",
       "Director": "Andrew Adamson, Vicky Jenson",
+      "Estudio": "DreamWorks Animation",
+      "País": "Estados Unidos",
+      "Género": "Animación, Comedia, Fantasía",
+      "Idioma original": "Inglés"
+    },
+
+    "downloads": [
+      {
+        "label": "1080p · Latino",
+        "url": "#"
+      },
+      {
+        "label": "1080p · Castellano",
+        "url": "#"
+      },
+      {
+        "label": "1080p · Inglés",
+        "url": "#"
+      },
+      {
+        "label": "4K · Latino",
+        "url": "#"
+      }
+    ]
+  },
+
+  {
+    "id": "shrek-2-2004",
+    "title": "Shrek 2",
+    "year": 2004,
+    "type": "Película",
+
+    "cover": "/images/Shrek-2/Shrek2Poster.png",
+
+    "description": "Después de casarse, Shrek y Fiona regresan de su luna de miel y reciben una invitación para visitar el reino de los padres de Fiona. Al llegar, sus padres descubren con sorpresa que su hija se ha convertido en una ogra y que su esposo es un ogro. Mientras Shrek intenta ganarse la aceptación de sus suegros, se enfrenta a El Hada Madrina, quien tiene sus propios planes para Fiona. Con la ayuda de Burro y el Gato con Botas, Shrek deberá luchar para proteger su matrimonio y demostrar que el verdadero amor no depende de las apariencias.",
+
+    "gallery": [
+      "/images/Shrek-2/1.png",
+      "/images/Shrek-2/2.png",
+      "/images/Shrek-2/3.png"
+    ],
+
+    "details": {
+      "Título original": "Shrek 2",
+      "Año": "2004",
+      "Duración": "93 minutos",
+      "Director": "Andrew Adamson, Kelly Asbury, Conrad Vernon",
+      "Estudio": "DreamWorks Animation",
+      "País": "Estados Unidos",
+      "Género": "Animación, Comedia, Fantasía",
+      "Idioma original": "Inglés"
+    },
+
+    "downloads": [
+      {
+        "label": "1080p · Latino",
+        "url": "#"
+      },
+      {
+        "label": "1080p · Castellano",
+        "url": "#"
+      },
+      {
+        "label": "1080p · Inglés",
+        "url": "#"
+      },
+      {
+        "label": "4K · Latino",
+        "url": "#"
+      }
+    ]
+  },
+
+  {
+    "id": "shrek-the-third-2007",
+    "title": "Shrek Tercero",
+    "year": 2007,
+    "type": "Película",
+
+    "cover": "/images/Shrek-3/Shrek3Poster.png",
+
+    "description": "Tras la muerte del rey Harold, Shrek se convierte en el heredero del trono de Muy Muy Lejano. Sin embargo, él no quiere ser rey y emprende un viaje junto a Burro y el Gato con Botas para encontrar a Arturo, un joven que podría ocupar el trono en su lugar. Mientras tanto, el Príncipe Encantador reúne a varios villanos de cuentos de hadas para tomar el control del reino. Shrek tendrá que enfrentarse a esta amenaza mientras aprende a asumir nuevas responsabilidades y se prepara para convertirse en padre.",
+
+    "gallery": [
+      "/images/Shrek-3/1.png",
+      "/images/Shrek-3/2.png",
+      "/images/Shrek-3/3.png"
+    ],
+
+    "details": {
+      "Título original": "Shrek the Third",
+      "Año": "2007",
+      "Duración": "93 minutos",
+      "Director": "Chris Miller, Raman Hui",
+      "Estudio": "DreamWorks Animation",
+      "País": "Estados Unidos",
+      "Género": "Animación, Comedia, Fantasía",
+      "Idioma original": "Inglés"
+    },
+
+    "downloads": [
+      {
+        "label": "1080p · Latino",
+        "url": "#"
+      },
+      {
+        "label": "1080p · Castellano",
+        "url": "#"
+      },
+      {
+        "label": "1080p · Inglés",
+        "url": "#"
+      },
+      {
+        "label": "4K · Latino",
+        "url": "#"
+      }
+    ]
+  },
+
+  {
+    "id": "shrek-forever-after-2010",
+    "title": "Shrek Para Siempre",
+    "year": 2010,
+    "type": "Película",
+
+    "cover": "/images/Shrek-4/Shrek4Poster.png",
+
+    "description": "Shrek está cansado de su tranquila vida familiar y comienza a extrañar los días en los que era un ogro temido y libre. Tras una decisión impulsiva, hace un trato con Rumpelstiltskin, quien lo engaña y crea una realidad alternativa en la que Shrek nunca nació. En este nuevo mundo, Fiona no es su esposa, Burro no lo conoce y Muy Muy Lejano está bajo el control de Rumpelstiltskin. Shrek deberá encontrar la manera de recuperar su vida y a las personas que ama antes de que el tiempo se agote.",
+
+    "gallery": [
+      "/images/Shrek-4/1.png",
+      "/images/Shrek-4/2.png",
+      "/images/Shrek-4/3.png"
+    ],
+
+    "details": {
+      "Título original": "Shrek Forever After",
+      "Año": "2010",
+      "Duración": "93 minutos",
+      "Director": "Mike Mitchell",
       "Estudio": "DreamWorks Animation",
       "País": "Estados Unidos",
       "Género": "Animación, Comedia, Fantasía",

@@ -4,6 +4,10 @@ import MediaCard from '../../components/MediaCard/MediaCard';
 
 import './MoviesPage.scss';
 
+import DownloadNotice
+  from '../../components/DownloadNotice/DownloadNotice';
+import { teraboxNotice } from '../../data/siteConfig';
+
 const MoviesPage = () => {
   return (
     <section className="movies-page">
@@ -24,6 +28,11 @@ const MoviesPage = () => {
         </p>
 
       </div>
+
+      <DownloadNotice
+        title="⚠️ Información sobre Terabox"
+        message={teraboxNotice} 
+      />
 
       <div className="movies-grid">
 
