@@ -66,6 +66,17 @@ const AppRouter = () => {
           element={<MainLayout />}
         />
 
+        {/* Series */}
+        <Route
+          path="/series"
+          element={<MainLayout />}
+        />
+
+        <Route
+          path="/series/:id"
+          element={<MainLayout />}
+        />
+
       </Routes>
 
     </BrowserRouter>

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "the-adventures-of-puss-in-boots-2015",
+    "title": "Las Aventuras del Gato con Botas",
+    "year": 2015,
+    "type": "Serie",
+
+    "cover": "/images/The-Adventures-Of-Puss-In-Boots-2015/PussInBootsSeriesPoster.png",
+
+    "description": "El legendario Gato con Botas se convierte en el protector secreto de la ciudad escondida de San Lorenzo. Mientras intenta mantener a salvo a sus habitantes, deberá enfrentarse a villanos, criaturas mágicas y amenazas que pondrán a prueba su valentía, ingenio y habilidad con la espada.",
+
+    "gallery": [
+      "/images/The-Adventures-Of-Puss-In-Boots-2015/1.png",
+      "/images/The-Adventures-Of-Puss-In-Boots-2015/2.png",
+      "/images/The-Adventures-Of-Puss-In-Boots-2015/3.png"
+    ],
+
+    "details": {
+      "Título original": "The Adventures of Puss in Boots",
+      "Año": "2015",
+      "Temporadas": "6",
+      "Episodios": "78",
+      "Creador": "Doug Langdale",
+      "Estudio": "DreamWorks Animation Television",
+      "País": "Estados Unidos",
+      "Género": "Animación, Comedia, Fantasía, Aventura",
+      "Idioma original": "Inglés"
+    },
+
+    "downloads": [
+      {
+        "label": "Temporada 1 · Latino",
+        "url": "#"
+      }
+    ]
+  }
+]
