@@ -6,6 +6,7 @@ import {
 
 import movies from '../../data/movies.json';
 import spinOffs from '../../data/spinOffs.json';
+import shorts from '../../data/shorts.json';
 
 import GalleryCarousel
   from '../../components/GalleryCarousel/GalleryCarousel';
@@ -38,6 +39,12 @@ const MediaDetail = () => {
       return spinOffs;
     }
 
+    if (
+      location.pathname.startsWith('/shorts/')
+    ) {
+      return shorts;
+    }
+
     return [];
   };
 
@@ -48,13 +55,17 @@ const MediaDetail = () => {
   );
 
   const backPath =
-    location.pathname.startsWith('/spin-offs/')
-      ? '/spin-offs'
+  location.pathname.startsWith('/spin-offs/')
+    ? '/spin-offs'
+    : location.pathname.startsWith('/shorts/')
+      ? '/shorts'
       : '/movies';
 
   const backLabel =
-    location.pathname.startsWith('/spin-offs/')
-      ? '← Volver a Spin-Offs'
+  location.pathname.startsWith('/spin-offs/')
+    ? '← Volver a Spin-Offs'
+    : location.pathname.startsWith('/shorts/')
+      ? '← Volver a Cortos'
       : '← Volver a películas';
 
   if (!media) {

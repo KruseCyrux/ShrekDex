@@ -10,6 +10,9 @@ import MoviesPage
 import SpinOffsPage
   from '../pages/SpinOffs/SpinOffsPage';
 
+import ShortsPage
+  from '../pages/Shorts/ShortsPage';
+
 import MediaDetail
   from '../pages/MediaDetail/MediaDetail';
 
@@ -38,6 +41,16 @@ const MainLayout = () => {
 
     // Ficha individual de un spin-off
     if (location.pathname.startsWith('/spin-offs/')) {
+      return <MediaDetail />;
+    }
+
+    // Página de cortos
+    if (location.pathname === '/shorts') {
+      return <ShortsPage />;
+    }
+
+    // Ficha individual de un corto
+    if (location.pathname.startsWith('/shorts/')) {
       return <MediaDetail />;
     }
 

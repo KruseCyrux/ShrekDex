@@ -7,7 +7,7 @@
 
     "cover": "/images/Puss-in-Boots-2011/PussInBootsPoster.png",
 
-    "description": "Mucho antes de conocer a Shrek y Burro, el Gato con Botas se embarca en una aventura junto a viejos conocidos para encontrar las legendarias habichuelas mágicas y hacerse con un tesoro que cambiará su destino.",
+    "description": "Gato con Botas, un hábil y carismático gato espadachín, emprende una aventura para conseguir las legendarias habichuelas mágicas y encontrar la famosa Oca de los huevos de oro. Para lograrlo, se reúne con su antigua amiga Kitty Patitas Suaves y con Humpty Alexander Dumpty, un viejo conocido con quien tiene asuntos pendientes. Juntos deberán enfrentarse a peligrosos enemigos y superar sus diferencias mientras descubren el verdadero valor de la amistad, la confianza y la redención.",
 
     "gallery": [
       "/images/Puss-in-Boots-2011/1.png",
@@ -20,6 +20,52 @@
       "Año": "2011",
       "Duración": "90 minutos",
       "Director": "Chris Miller",
+      "Estudio": "DreamWorks Animation",
+      "País": "Estados Unidos",
+      "Género": "Animación, Comedia, Fantasía, Aventura",
+      "Idioma original": "Inglés"
+    },
+
+    "downloads": [
+      {
+        "label": "1080p · Latino",
+        "url": "#"
+      },
+      {
+        "label": "1080p · Castellano",
+        "url": "#"
+      },
+      {
+        "label": "1080p · Inglés",
+        "url": "#"
+      },
+      {
+        "label": "4K · Latino",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": "puss-in-boots-the-last-wish-2022",
+    "title": "El Gato con Botas: El Último Deseo",
+    "year": 2022,
+    "type": "Spin-Off",
+
+    "cover": "/images/Puss-in-Boots-The-Last-Wish-2022/PussInBootsTheLastWishPoster.png",
+
+    "description": "El Gato con Botas descubre que ha gastado casi todas sus vidas y que solo le queda una. Ante el miedo a perderla, emprende un viaje en busca del Último Deseo, una estrella mágica capaz de conceder deseos y devolverle sus vidas perdidas. Acompañado por Kitty Patitas Suaves y un perro alegre y bondadoso llamado Perrito, el Gato deberá enfrentarse a varios enemigos, incluido el misterioso Lobo, mientras aprende a valorar la vida que todavía tiene y a aceptar que no necesita más de una vida para vivirla plenamente.",
+
+    "gallery": [
+      "/images/Puss-in-Boots-The-Last-Wish-2022/1.png",
+      "/images/Puss-in-Boots-The-Last-Wish-2022/2.png",
+      "/images/Puss-in-Boots-The-Last-Wish-2022/3.png"
+    ],
+
+    "details": {
+      "Título original": "Puss in Boots: The Last Wish",
+      "Año": "2022",
+      "Duración": "102 minutos",
+      "Director": "Joel Crawford",
       "Estudio": "DreamWorks Animation",
       "País": "Estados Unidos",
       "Género": "Animación, Comedia, Fantasía, Aventura",

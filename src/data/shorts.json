@@ -1,0 +1,48 @@
+[
+  {
+    "id": "shrek-the-halls-2007",
+    "title": "Shrek the Halls",
+    "year": 2007,
+    "type": "Corto",
+
+    "cover": "/images/Shrek-The-Halls-2007/ShrekTheHallsPoster.png",
+
+    "description": "Shrek se prepara para celebrar su primera Navidad junto a Fiona y su familia, pero su desconocimiento de las tradiciones navideñas provoca una serie de situaciones inesperadas en Muy Muy Lejano.",
+
+    "gallery": [
+      "/images/Shrek-The-Halls-2007/1.png",
+      "/images/Shrek-The-Halls-2007/2.png",
+      "/images/Shrek-The-Halls-2007/3.png"
+    ],
+
+    "details": {
+      "Título original": "Shrek the Halls",
+      "Año": "2007",
+      "Duración": "22 minutos",
+      "Director": "Gary Trousdale",
+      "Estudio": "DreamWorks Animation",
+      "País": "Estados Unidos",
+      "Género": "Animación, Comedia, Fantasía, Especial navideño",
+      "Idioma original": "Inglés"
+    },
+
+    "downloads": [
+      {
+        "label": "1080p · Latino",
+        "url": "#"
+      },
+      {
+        "label": "1080p · Castellano",
+        "url": "#"
+      },
+      {
+        "label": "1080p · Inglés",
+        "url": "#"
+      },
+      {
+        "label": "4K · Latino",
+        "url": "#"
+      }
+    ]
+  }
+]

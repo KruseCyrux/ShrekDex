@@ -43,6 +43,18 @@ const AppRouter = () => {
           element={<MainLayout />}
         />
 
+        {/* Cortos */}
+
+        <Route
+          path="/shorts"
+          element={<MainLayout />}
+        />
+
+        <Route
+          path="/shorts/:id"
+          element={<MainLayout />}  
+        />
+
       </Routes>
 
     </BrowserRouter>
