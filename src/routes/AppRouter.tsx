@@ -55,6 +55,17 @@ const AppRouter = () => {
           element={<MainLayout />}  
         />
 
+        {/* Cortos Spin-Offs */}
+        <Route
+          path="/spin-off-shorts"
+          element={<MainLayout />}
+        />
+
+        <Route
+          path="/spin-off-shorts/:id"
+          element={<MainLayout />}
+        />
+
       </Routes>
 
     </BrowserRouter>

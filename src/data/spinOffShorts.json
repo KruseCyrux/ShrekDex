@@ -1,0 +1,36 @@
+[
+  {
+    "id": "the-three-diablos-2012",
+    "title": "The Three Diablos",
+    "year": 2012,
+    "type": "Corto Spin-Off",
+
+    "cover": "/images/The-Three-Diablos-2012/TheThreeDiablosPoster.png",
+
+    "description": "El Gato con Botas recibe la misión de recuperar una valiosa joya robada por tres pequeños forajidos conocidos como los Tres Diablos, quienes esconden más de una sorpresa.",
+
+    "gallery": [
+      "/images/The-Three-Diablos-2012/1.png",
+      "/images/The-Three-Diablos-2012/2.png",
+      "/images/The-Three-Diablos-2012/3.png"
+    ],
+
+    "details": {
+      "Título original": "The Three Diablos",
+      "Año": "2012",
+      "Duración": "13 minutos",
+      "Director": "Raman Hui",
+      "Estudio": "DreamWorks Animation",
+      "País": "Estados Unidos",
+      "Género": "Animación, Comedia, Aventura",
+      "Idioma original": "Inglés"
+    },
+
+    "downloads": [
+      {
+        "label": "1080p · Latino",
+        "url": "#"
+      }
+    ]
+  }
+]
