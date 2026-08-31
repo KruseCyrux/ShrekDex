@@ -1,0 +1,33 @@
+[
+  {
+    "id": "the-story-of-shrek",
+    "title": "The Story of Shrek",
+    "year": 2001,
+    "type": "Extra",
+
+    "cover": "/images/The-Story-Of-Shrek/poster.png",
+
+    "description": "Documental centrado en la producción de la primera película de Shrek, mostrando material detrás de cámaras, entrevistas y el proceso creativo de DreamWorks Animation.",
+
+    "gallery": [
+      "/images/The-Story-Of-Shrek/1.png",
+      "/images/The-Story-Of-Shrek/2.png",
+      "/images/The-Story-Of-Shrek/3.png"
+    ],
+
+    "details": {
+      "Tipo": "Documental",
+      "Año": "2001",
+      "Duración": "30 minutos",
+      "Estudio": "DreamWorks Animation",
+      "País": "Estados Unidos"
+    },
+
+    "downloads": [
+      {
+        "label": "1080p · Inglés",
+        "url": "#"
+      }
+    ]
+  }
+]

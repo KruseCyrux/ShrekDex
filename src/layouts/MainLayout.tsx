@@ -19,6 +19,9 @@ import SpinOffShortsPage
 import SeriesPage
   from '../pages/Series/SeriesPage';
 
+import ExtrasPage
+  from '../pages/Extras/ExtrasPage';
+
 import MediaDetail
   from '../pages/MediaDetail/MediaDetail';
 
@@ -77,6 +80,16 @@ const MainLayout = () => {
 
     // Ficha individual de una serie
     if (location.pathname.startsWith('/series/')) {
+      return <MediaDetail />;
+    }
+
+    // Página de extras
+    if (location.pathname === '/extras') {
+      return <ExtrasPage />;
+    }
+
+    // Ficha individual de un extra
+    if (location.pathname.startsWith('/extras/')) {
       return <MediaDetail />;
     }
 

@@ -77,6 +77,17 @@ const AppRouter = () => {
           element={<MainLayout />}
         />
 
+        {/* Extras */}
+        <Route
+          path="/extras"
+          element={<MainLayout />}
+        />  
+
+        <Route
+          path="/extras/:id"
+          element={<MainLayout />}
+        />
+
       </Routes>
 
     </BrowserRouter>

@@ -25,7 +25,7 @@ const sections = [
   },
   {
     name: 'Extra',
-    path: '/extra',
+    path: '/extras',
   },
   {
     name: 'Videojuegos',
