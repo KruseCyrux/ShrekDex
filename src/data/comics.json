@@ -1,0 +1,28 @@
+[
+  {
+    "id": "shrek-comic-example",
+    "title": "Shrek Comic Example",
+    "year": 2003,
+    "type": "Cómic",
+    "cover": "/images/comics/shrek-comic-example/cover.jpg",
+    "description": "Ejemplo de ficha para los cómics de Shrek. Sustituye esta información por el material real que agregarás posteriormente.",
+    "gallery": [
+      "/images/comics/shrek-comic-example/1.jpg",
+      "/images/comics/shrek-comic-example/2.jpg",
+      "/images/comics/shrek-comic-example/3.jpg"
+    ],
+    "details": {
+      "Título": "Shrek Comic Example",
+      "Año": "2003",
+      "Formato": "Cómic",
+      "Editorial": "DreamWorks",
+      "Idioma": "Inglés"
+    },
+    "downloads": [
+      {
+        "label": "Leer / Descargar",
+        "url": "#"
+      }
+    ]
+  }
+]

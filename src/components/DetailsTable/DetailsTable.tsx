@@ -1,29 +1,44 @@
 import './DetailsTable.scss';
 
+interface Detail {
+  label: string;
+  value: string;
+}
+
 interface DetailsTableProps {
-  details: Record<string, string>;
+  details: Record<string, string> | Detail[];
 }
 
 const DetailsTable = ({
   details,
 }: DetailsTableProps) => {
+
+  const normalizedDetails: Detail[] = Array.isArray(details)
+    ? details
+    : Object.entries(details).map(
+        ([label, value]) => ({
+          label,
+          value,
+        })
+      );
+
   return (
     <div className="details-table">
 
-      {Object.entries(details).map(
-        ([label, value]) => (
+      {normalizedDetails.map(
+        (detail, index) => (
 
           <div
             className="details-row"
-            key={label}
+            key={`${detail.label}-${index}`}
           >
 
             <span className="details-label">
-              {label}
+              {detail.label}
             </span>
 
             <span className="details-value">
-              {value}
+              {detail.value}
             </span>
 
           </div>
