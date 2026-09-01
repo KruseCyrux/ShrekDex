@@ -12,7 +12,17 @@ interface MediaCardProps {
   cover: string;
   description: string;
   type: string;
+
+  gameCategory?: string;
 }
+
+const categoryLabels: Record<string, string> = {
+  principales: 'Principales',
+  carreras: 'Carreras',
+  party: 'Party',
+  miscelaneos: 'Misceláneos',
+  educativos: 'Educativos',
+};
 
 const MediaCard = ({
   id,
@@ -22,7 +32,8 @@ const MediaCard = ({
   cover,
   description,
   type,
-}: MediaCardProps) => {  
+  gameCategory,
+}: MediaCardProps) => {
   return (
     <article className="media-card">
 
@@ -32,6 +43,7 @@ const MediaCard = ({
       >
 
         <div className="media-card-image">
+
           <img
             src={cover}
             alt={`Póster de ${title}`}
@@ -40,6 +52,15 @@ const MediaCard = ({
           <span className="media-card-type">
             {type}
           </span>
+
+          {gameCategory && (
+            <span
+              className={`media-card-game-category category-${gameCategory}`}
+            >
+              {categoryLabels[gameCategory] ?? gameCategory}
+            </span>
+          )}
+
         </div>
 
         <div className="media-card-content">

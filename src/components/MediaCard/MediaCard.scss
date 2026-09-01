@@ -122,3 +122,51 @@
     transform: translateX(5px);
   }
 }
+
+.media-card-game-category {
+  position: absolute;
+  left: 0.75rem;
+  bottom: 0.75rem;
+
+  padding: 0.4rem 0.75rem;
+
+  border-radius: 999px;
+
+  color: white;
+
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+
+  transition:
+    transform 0.2s ease,
+    filter 0.2s ease;
+}
+
+.media-card:hover .media-card-game-category {
+  transform: translateY(-3px);
+  filter: brightness(1.1);
+}
+
+.category-principales {
+  background: #6f8f28;
+}
+
+.category-carreras {
+  background: #2563eb;
+}
+
+.category-party {
+  background: #9333ea;
+}
+
+.category-miscelaneos {
+  background: #d97706;
+}
+
+.category-educativos {
+  background: #0891b2;
+}

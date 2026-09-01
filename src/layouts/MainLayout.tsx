@@ -22,6 +22,9 @@ import SeriesPage
 import ExtrasPage
   from '../pages/Extras/ExtrasPage';
 
+import VideoGamesPage 
+  from '../pages/VideoGames/VideoGamesPage';
+
 import MediaDetail
   from '../pages/MediaDetail/MediaDetail';
 
@@ -90,6 +93,15 @@ const MainLayout = () => {
 
     // Ficha individual de un extra
     if (location.pathname.startsWith('/extras/')) {
+      return <MediaDetail />;
+    }
+
+    // Página de videojuegos
+    if (location.pathname === '/video-games') {
+      return <VideoGamesPage />;
+    }
+    // Ficha individual de un videojuego
+    if (location.pathname.startsWith('/video-games/')) {
       return <MediaDetail />;
     }
 

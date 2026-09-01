@@ -29,7 +29,7 @@ const sections = [
   },
   {
     name: 'Videojuegos',
-    path: '/games',
+    path: '/video-games',
   },
   {
     name: 'Cómics',

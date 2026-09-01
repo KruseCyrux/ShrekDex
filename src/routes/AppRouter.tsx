@@ -88,6 +88,17 @@ const AppRouter = () => {
           element={<MainLayout />}
         />
 
+        {/* Videojuegos */}
+        <Route
+          path="/video-games"
+          element={<MainLayout />}
+        />
+
+      <Route
+          path="/video-games/:id"
+          element={<MainLayout />}
+        />
+        
       </Routes>
 
     </BrowserRouter>

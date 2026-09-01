@@ -10,6 +10,7 @@ import shorts from '../../data/shorts.json';
 import spinOffShorts from '../../data/spinOffShorts.json';
 import series from '../../data/series.json';
 import extras from '../../data/extras.json';
+import videoGames from '../../data/videoGames.json';
 
 import GalleryCarousel
   from '../../components/GalleryCarousel/GalleryCarousel';
@@ -66,6 +67,12 @@ const MediaDetail = () => {
       return extras;
     }
 
+    if (
+      location.pathname.startsWith('/video-games/')
+    ) {
+      return videoGames;
+    }
+    
     return [];
   };
 
@@ -84,9 +91,11 @@ const MediaDetail = () => {
         ? '/spin-off-shorts'
         : location.pathname.startsWith('/series/')
           ? '/series'
-          : location.pathname.startsWith('/extras/')
-            ? '/extras'
-            : '/movies';
+          : location.pathname.startsWith('/video-games/')
+            ? '/video-games'
+            : location.pathname.startsWith('/extras/')
+              ? '/extras'
+              : '/movies';
 
   const backLabel =
   location.pathname.startsWith('/spin-offs/')
@@ -97,9 +106,11 @@ const MediaDetail = () => {
         ? '← Volver a Cortos Spin-Offs'
         : location.pathname.startsWith('/series/')
           ? '← Volver a Series'
-          : location.pathname.startsWith('/extras/')
-            ? '← Volver a Extras'
-            : '← Volver a películas';
+          : location.pathname.startsWith('/video-games/')
+            ? '← Volver a Videojuegos'
+            : location.pathname.startsWith('/extras/')
+              ? '← Volver a Extras'
+              : '← Volver a películas';
 
   if (!media) {
     return (

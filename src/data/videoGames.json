@@ -1,0 +1,56 @@
+[
+  {
+    "id": "shrek-2001",
+    "title": "Shrek",
+    "year": 2001,
+    "cover": "/images/video-games/shrek-2001.jpg",
+    "description": "Videojuego basado en la primera película de Shrek. El jugador controla al ogro en una aventura que adapta distintos momentos y personajes de la película, incorporando escenarios, enemigos y situaciones propias de un videojuego.",
+    "type": "Aventura",
+    "gameCategory": "principales",
+    "platforms": [
+      "PlayStation",
+      "Game Boy Advance",
+      "Xbox",
+      "PC"
+    ],
+    "developer": "TBA",
+    "publisher": "TBA",
+    "gallery": [
+      "/images/video-games/shrek-2001-1.jpg",
+      "/images/video-games/shrek-2001-2.jpg",
+      "/images/video-games/shrek-2001-3.jpg"
+    ],
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "2001"
+      },
+      {
+        "label": "Género",
+        "value": "Aventura"
+      },
+      {
+        "label": "Categoría",
+        "value": "Principales"
+      },
+      {
+        "label": "Plataformas",
+        "value": "PlayStation, Game Boy Advance, Xbox, PC"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "TBA"
+      },
+      {
+        "label": "Distribuidor",
+        "value": "TBA"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "Descargar",
+        "url": "#"
+      }
+    ]
+  }
+]
