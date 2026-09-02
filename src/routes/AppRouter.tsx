@@ -121,6 +121,16 @@ const AppRouter = () => {
           element={<MainLayout />}
         />
         
+        {/* Música */}
+        <Route
+          path="/music"
+          element={<MainLayout />}
+        />
+      <Route
+          path="/music/:id"
+          element={<MainLayout />}
+        />
+        
       </Routes>
 
     </BrowserRouter>

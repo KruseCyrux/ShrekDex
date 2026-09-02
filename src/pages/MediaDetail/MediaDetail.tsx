@@ -13,6 +13,7 @@ import extras from '../../data/extras.json';
 import videoGames from '../../data/videoGames.json';
 import comics from '../../data/comics.json';
 import books from '../../data/books.json';
+import music from '../../data/music.json';
 
 import GalleryCarousel
   from '../../components/GalleryCarousel/GalleryCarousel';
@@ -67,6 +68,10 @@ const MediaDetail = () => {
       return books;
     }
 
+    if (location.pathname.startsWith('/music/')) {
+      return music;
+    }
+
     return [];
   };
 
@@ -77,6 +82,7 @@ const MediaDetail = () => {
   );
 
   const backPath =
+
   location.pathname.startsWith('/spin-offs/')
     ? '/spin-offs'
     : location.pathname.startsWith('/shorts/')
@@ -91,11 +97,14 @@ const MediaDetail = () => {
               ? '/comics'
               : location.pathname.startsWith('/books/')
                 ? '/books'
-                : location.pathname.startsWith('/extras/')
-                  ? '/extras'
-                  : '/movies';
+                : location.pathname.startsWith('/music/')
+                  ? '/music'
+                  : location.pathname.startsWith('/extras/')
+                    ? '/extras'
+                    : '/movies';
 
   const backLabel =
+
   location.pathname.startsWith('/spin-offs/')
     ? '← Volver a Spin-Offs'
     : location.pathname.startsWith('/shorts/')
@@ -110,9 +119,11 @@ const MediaDetail = () => {
               ? '← Volver a Cómics'
               : location.pathname.startsWith('/books/')
                 ? '← Volver a Libros'
-                : location.pathname.startsWith('/extras/')
-                  ? '← Volver a Extras'
-                  : '← Volver a Películas';
+                : location.pathname.startsWith('/music/')
+                  ? '← Volver a Música'
+                  : location.pathname.startsWith('/extras/')
+                    ? '← Volver a Extras'
+                    : '← Volver a Películas';
 
   if (!media) {
     return (

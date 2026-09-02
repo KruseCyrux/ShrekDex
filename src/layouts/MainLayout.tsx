@@ -31,6 +31,9 @@ import ComicsPage
 import BooksPage 
   from '../pages/Books/BooksPage';
 
+import MusicPage
+  from '../pages/Music/MusicPage';
+
 import MediaDetail
   from '../pages/MediaDetail/MediaDetail';
 
@@ -126,6 +129,15 @@ const MainLayout = () => {
     }
     // Ficha individual de un libro
     if (location.pathname.startsWith('/books/')) {
+      return <MediaDetail />;
+    }
+
+    // Página de música
+    if (location.pathname === '/music') {
+      return <MusicPage />;
+    }
+    // Ficha individual de un álbum
+    if (location.pathname.startsWith('/music/')) {
       return <MediaDetail />;
     }
 
