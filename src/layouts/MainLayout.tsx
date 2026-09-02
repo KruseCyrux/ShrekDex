@@ -28,6 +28,9 @@ import VideoGamesPage
 import ComicsPage
   from '../pages/Comics/ComicsPage';
 
+import BooksPage 
+  from '../pages/Books/BooksPage';
+
 import MediaDetail
   from '../pages/MediaDetail/MediaDetail';
 
@@ -114,6 +117,15 @@ const MainLayout = () => {
     }
     // Ficha individual de un cómic
     if (location.pathname.startsWith('/comics/')) {
+      return <MediaDetail />;
+    }
+
+    // Página de libros
+    if (location.pathname === '/books') {
+      return <BooksPage />;
+    }
+    // Ficha individual de un libro
+    if (location.pathname.startsWith('/books/')) {
       return <MediaDetail />;
     }
 

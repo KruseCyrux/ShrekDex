@@ -110,6 +110,17 @@ const AppRouter = () => {
           element={<MainLayout />}
         />
         
+        {/* Libros */}
+        <Route
+          path="/books"
+          element={<MainLayout />}
+        />
+
+      <Route
+          path="/books/:id"
+          element={<MainLayout />}
+        />
+        
       </Routes>
 
     </BrowserRouter>

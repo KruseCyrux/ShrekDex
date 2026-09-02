@@ -1,0 +1,43 @@
+[
+  {
+    "id": "shrek-2001-book",
+    "title": "Shrek",
+    "year": 2001,
+    "type": "Libro",
+    "cover": "/images/books/shrek-2001-book/cover.jpg",
+    "description": "Libro basado en el universo de Shrek, publicado como material complementario a la película. Esta ficha sirve como ejemplo para organizar los libros relacionados con la franquicia.",
+    "gallery": [
+      "/images/books/shrek-2001-book/1.jpg",
+      "/images/books/shrek-2001-book/2.jpg",
+      "/images/books/shrek-2001-book/3.jpg"
+    ],
+    "details": [
+      {
+        "label": "Título",
+        "value": "Shrek"
+      },
+      {
+        "label": "Año",
+        "value": "2001"
+      },
+      {
+        "label": "Formato",
+        "value": "Libro"
+      },
+      {
+        "label": "Idioma",
+        "value": "Inglés"
+      },
+      {
+        "label": "Editorial",
+        "value": "TBA"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "Leer / Descargar",
+        "url": "#"
+      }
+    ]
+  }
+]

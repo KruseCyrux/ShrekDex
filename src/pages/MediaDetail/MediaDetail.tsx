@@ -12,6 +12,7 @@ import series from '../../data/series.json';
 import extras from '../../data/extras.json';
 import videoGames from '../../data/videoGames.json';
 import comics from '../../data/comics.json';
+import books from '../../data/books.json';
 
 import GalleryCarousel
   from '../../components/GalleryCarousel/GalleryCarousel';
@@ -62,6 +63,10 @@ const MediaDetail = () => {
       return comics;
     }
 
+    if (location.pathname.startsWith('/books/')) {
+      return books;
+    }
+
     return [];
   };
 
@@ -72,35 +77,39 @@ const MediaDetail = () => {
   );
 
   const backPath =
-    location.pathname.startsWith('/spin-offs/')
-      ? '/spin-offs'
-      : location.pathname.startsWith('/shorts/')
-        ? '/shorts'
-        : location.pathname.startsWith('/spin-off-shorts/')
-          ? '/spin-off-shorts'
-          : location.pathname.startsWith('/series/')
-            ? '/series'
-            : location.pathname.startsWith('/video-games/')
-              ? '/video-games'
-              : location.pathname.startsWith('/comics/')
-                ? '/comics'
+  location.pathname.startsWith('/spin-offs/')
+    ? '/spin-offs'
+    : location.pathname.startsWith('/shorts/')
+      ? '/shorts'
+      : location.pathname.startsWith('/spin-off-shorts/')
+        ? '/spin-off-shorts'
+        : location.pathname.startsWith('/series/')
+          ? '/series'
+          : location.pathname.startsWith('/video-games/')
+            ? '/video-games'
+            : location.pathname.startsWith('/comics/')
+              ? '/comics'
+              : location.pathname.startsWith('/books/')
+                ? '/books'
                 : location.pathname.startsWith('/extras/')
                   ? '/extras'
                   : '/movies';
 
   const backLabel =
-    location.pathname.startsWith('/spin-offs/')
-      ? '← Volver a Spin-Offs'
-      : location.pathname.startsWith('/shorts/')
-        ? '← Volver a Cortos'
-        : location.pathname.startsWith('/spin-off-shorts/')
-          ? '← Volver a Cortos Spin-Offs'
-          : location.pathname.startsWith('/series/')
-            ? '← Volver a Series'
-            : location.pathname.startsWith('/video-games/')
-              ? '← Volver a Videojuegos'
-              : location.pathname.startsWith('/comics/')
-                ? '← Volver a Cómics'
+  location.pathname.startsWith('/spin-offs/')
+    ? '← Volver a Spin-Offs'
+    : location.pathname.startsWith('/shorts/')
+      ? '← Volver a Cortos'
+      : location.pathname.startsWith('/spin-off-shorts/')
+        ? '← Volver a Cortos Spin-Offs'
+        : location.pathname.startsWith('/series/')
+          ? '← Volver a Series'
+          : location.pathname.startsWith('/video-games/')
+            ? '← Volver a Videojuegos'
+            : location.pathname.startsWith('/comics/')
+              ? '← Volver a Cómics'
+              : location.pathname.startsWith('/books/')
+                ? '← Volver a Libros'
                 : location.pathname.startsWith('/extras/')
                   ? '← Volver a Extras'
                   : '← Volver a Películas';
