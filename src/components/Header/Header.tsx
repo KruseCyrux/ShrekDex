@@ -49,8 +49,11 @@ const Header = () => {
   return (
     <header className="header">
 
-      <div className="header-title">
-
+      <Link
+        to="/"
+        className="header-title"
+        aria-label="Volver al inicio de ShrekDex"
+      >
         <h1>
           🧅 ShrekDex
         </h1>
@@ -58,8 +61,7 @@ const Header = () => {
         <span>
           (Colección Completa)
         </span>
-
-      </div>
+      </Link>
 
       <nav className="navigation">
 
