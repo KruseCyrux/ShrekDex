@@ -1,36 +1,104 @@
 [
+{
+"id": "the-three-diablos-2012",
+"title": "The Three Diablos",
+"year": 2012,
+"type": "Corto Spin-Off",
+"cover": "/images/shorts-offs/ThreeDiablos/Poster.png",
+
+"description": "El Gato con Botas recibe la misión de recuperar un valioso rubí que fue robado por el peligroso bandido El Fuerte. Para encontrarlo, deberá enfrentarse a tres pequeños y traviesos gatitos conocidos como Los Tres Diablos, quienes están relacionados con el robo. Aunque al principio parecen ser unos delincuentes incorregibles, Gato decide ganarse su confianza y convertirlos en aliados. Juntos emprenden una aventura llena de acción y humor para recuperar el rubí y detener a El Fuerte.",
+
+"gallery": [
+  "/images/shorts-offs/ThreeDiablos/1.png",
+  "/images/shorts-offs/ThreeDiablos/2.png",
+  "/images/shorts-offs/ThreeDiablos/3.png"
+],
+
+"details": {
+  "Título original": "Puss In Boots: The Three Diablos",
+  "Año": "2012",
+  "Calidad": "Blu-Ray",
+  "Resolución": "1080p",
+  "Idiomas": "Latino (AC-3) [5.1] & Inglés (AC-3) [5.1]",
+  "Subtítulos": "Si",
+  "Formato": "MKV",
+  "Peso": "1.2 GB"
+},
+
+"downloads": [
   {
-    "id": "the-three-diablos-2012",
-    "title": "The Three Diablos",
-    "year": 2012,
-    "type": "Corto Spin-Off",
-
-    "cover": "/images/The-Three-Diablos-2012/TheThreeDiablosPoster.png",
-
-    "description": "El Gato con Botas recibe la misión de recuperar una valiosa joya robada por tres pequeños forajidos conocidos como los Tres Diablos, quienes esconden más de una sorpresa.",
-
-    "gallery": [
-      "/images/The-Three-Diablos-2012/1.png",
-      "/images/The-Three-Diablos-2012/2.png",
-      "/images/The-Three-Diablos-2012/3.png"
-    ],
-
-    "details": {
-      "Título original": "The Three Diablos",
-      "Año": "2012",
-      "Duración": "13 minutos",
-      "Director": "Raman Hui",
-      "Estudio": "DreamWorks Animation",
-      "País": "Estados Unidos",
-      "Género": "Animación, Comedia, Aventura",
-      "Idioma original": "Inglés"
-    },
-
-    "downloads": [
-      {
-        "label": "1080p · Latino",
-        "url": "#"
-      }
-    ]
+    "label": "1080p · Latino",
+    "url": "https://1024terabox.com/s/1jhJlFkn43EP4sWeIHBMIdg"
   }
+]
+
+},
+{
+"id": "puss-in-book-trapped-in-an-epic-tale-2017",
+"title": "Puss in Book: Trapped in an Epic Tale",
+"year": 2017,
+"type": "Corto Spin-Off",
+"cover": "/images/shorts-offs/EpicTale/Poster.png",
+
+"description": "El Gato con Botas encuentra un misterioso libro de cuentos que resulta ser mágico. Al entrar en él, queda atrapado dentro de una historia y descubre que él mismo debe controlar el rumbo de la aventura. A medida que avanza por diferentes escenarios de cuentos de hadas, Gato se enfrenta a enemigos, peligros y decisiones que cambian la historia. Con su ingenio, valentía y sentido del humor, tendrá que encontrar la manera de escapar del libro y regresar a su mundo.",
+
+"gallery": [
+  "/images/shorts-offs/EpicTale/1.png",
+  "/images/shorts-offs/EpicTale/2.png",
+  "/images/shorts-offs/EpicTale/3.png"
+],
+
+"details": {
+  "Título original": "Puss In Book: Trapped In An Epic Tale",
+  "Año": "2017",
+  "Calidad": "Blu-Ray",
+  "Resolución": "1080p",
+  "Idiomas": "Latino (AC-3) [5.1] & Inglés (AC-3) [5.1]",
+  "Subtítulos": "Si",
+  "Formato": "MKV",
+  "Peso": "932.70 MB"
+},
+
+"downloads": [
+  {
+    "label": "1080p · Latino",
+    "url": "https://1024terabox.com/s/1jhJlFkn43EP4sWeIHBMIdg"
+  }
+]
+
+},
+{
+"id": "the-trident-2023",
+"title": "The Trident",
+"year": 2023,
+"type": "Corto Spin-Off",
+"cover": "/images/shorts-offs/TheTrident/Poster.png",
+
+"description": "The Trident es un episodio interactivo de Puss in Book: Trapped in an Epic Tale protagonizado por el Gato con Botas. En esta aventura, Gato se enfrenta a una situación peligrosa relacionada con un poderoso tridente mágico. Sus decisiones determinan cómo continúa la historia, llevándolo por diferentes caminos, enfrentamientos y situaciones cómicas. Como en el resto del especial, el espectador puede elegir entre distintas opciones para ayudar a Gato a avanzar y decidir el destino de la aventura.",
+
+"gallery": [
+  "/images/shorts-offs/TheTrident/1.png",
+  "/images/shorts-offs/TheTrident/2.png",
+  "/images/shorts-offs/TheTrident/3.png"
+],
+
+"details": {
+  "Título original": "The Trident",
+  "Año": "2023",
+  "Calidad": "Blu-Ray",
+  "Resolución": "1080p",
+  "Idiomas": "Latino (AC-3) [5.1] & Inglés (AC-3) [5.1]",
+  "Subtítulos": "Si",
+  "Formato": "MKV",
+  "Peso": "91.60 MB"
+},
+
+"downloads": [
+  {
+    "label": "1080p · Latino",
+    "url": "https://1024terabox.com/s/1jhJlFkn43EP4sWeIHBMIdg"
+  }
+]
+
+}
 ]

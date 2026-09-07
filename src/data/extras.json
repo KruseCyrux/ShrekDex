@@ -1,33 +1,36 @@
 [
+{
+"id": "shrek-the-musical",
+"title": "Shrek the Musical",
+"year": 2013,
+"type": "Extra",
+"cover": "/images/extras/TheMusical/Poster.png",
+
+"description": "Es la adaptación teatral y musical de la primera película de Shrek. La historia sigue a Shrek, un ogro que vive tranquilamente en su pantano hasta que el malvado Lord Farquaad expulsa a varias criaturas de cuentos de hadas y estas terminan invadiendo su hogar. Para recuperar su pantano, Shrek acepta rescatar a la princesa Fiona, quien está encerrada en una torre custodiada por un dragón. Durante el viaje, Shrek y Burro comienzan a desarrollar una amistad, mientras que Shrek y Fiona descubren que tienen mucho más en común de lo que imaginaban. A través de canciones, humor y números musicales, la obra explora temas como la aceptación, la amistad, el amor y la importancia de ser uno mismo, siguiendo la historia principal de la película pero incorporando nuevas canciones y escenas.",
+
+"gallery": [
+  "/images/extras/TheMusical/1.png",
+  "/images/extras/TheMusical/2.png",
+  "/images/extras/TheMusical/3.png"
+],
+
+"details": {
+  "Tipo": "Musical teatral",
+  "Año": "2013",
+  "Calidad": "DVD",
+  "Resolución": "720p",
+  "Idioma": "Inglés",
+  "Subtítulos": "No",
+  "Formato": "ISO/MP4 (H.264)",
+  "Peso": "8.9 GB"
+},
+
+"downloads": [
   {
-    "id": "the-story-of-shrek",
-    "title": "The Story of Shrek",
-    "year": 2001,
-    "type": "Extra",
-
-    "cover": "/images/The-Story-Of-Shrek/poster.png",
-
-    "description": "Documental centrado en la producción de la primera película de Shrek, mostrando material detrás de cámaras, entrevistas y el proceso creativo de DreamWorks Animation.",
-
-    "gallery": [
-      "/images/The-Story-Of-Shrek/1.png",
-      "/images/The-Story-Of-Shrek/2.png",
-      "/images/The-Story-Of-Shrek/3.png"
-    ],
-
-    "details": {
-      "Tipo": "Documental",
-      "Año": "2001",
-      "Duración": "30 minutos",
-      "Estudio": "DreamWorks Animation",
-      "País": "Estados Unidos"
-    },
-
-    "downloads": [
-      {
-        "label": "1080p · Inglés",
-        "url": "#"
-      }
-    ]
+    "label": "Obra Musical · Inglés",
+    "url": "https://archive.org/details/shrek-the-musical/SHREK_THE_MUSICAL.ISO"
   }
+]
+
+}
 ]

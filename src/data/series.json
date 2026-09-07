@@ -1,36 +1,38 @@
 [
   {
     "id": "the-adventures-of-puss-in-boots-2015",
-    "title": "Las Aventuras del Gato con Botas",
+    "title": "The Adventures Of Puss In Boots",
     "year": 2015,
     "type": "Serie",
 
-    "cover": "/images/The-Adventures-Of-Puss-In-Boots-2015/PussInBootsSeriesPoster.png",
+    "cover": "/images/series/AdventuresPuss/Poster.png",
 
-    "description": "El legendario Gato con Botas se convierte en el protector secreto de la ciudad escondida de San Lorenzo. Mientras intenta mantener a salvo a sus habitantes, deberá enfrentarse a villanos, criaturas mágicas y amenazas que pondrán a prueba su valentía, ingenio y habilidad con la espada.",
+    "description": "La serie se desarrolla antes de los eventos de El Gato con Botas (2011) y ve al Gato con Botas luchar contra una legión interminable de invasores para proteger la ciudad española previamente oculta de San Lorenzo, después de que sus acciones rompieran involuntariamente el hechizo que protegía su legendario tesoro místico del mundo exterior. Posteriormente, deberá encontrar una manera de restaurar el hechizo de protección que cubrirá la ciudad una vez más.",
 
     "gallery": [
-      "/images/The-Adventures-Of-Puss-In-Boots-2015/1.png",
-      "/images/The-Adventures-Of-Puss-In-Boots-2015/2.png",
-      "/images/The-Adventures-Of-Puss-In-Boots-2015/3.png"
+      "/images/series/AdventuresPuss/1.png",
+      "/images/series/AdventuresPuss/2.png",
+      "/images/series/AdventuresPuss/3.png"
     ],
 
     "details": {
-      "Título original": "The Adventures of Puss in Boots",
-      "Año": "2015",
+      "Título original": "The Adventures of Puss In Boots",
+      "Año De Estreno": "2015",
+      "Año De Finalización": "2018",
+      "Calidad": "Web-DL",
+      "Resolución": "1080p",
+      "Idiomas": "Latino (AC-3) [5.1] & Inglés (AC-3) [5.1]",
+      "Subtítulos": "Si",
       "Temporadas": "6",
-      "Episodios": "78",
-      "Creador": "Doug Langdale",
-      "Estudio": "DreamWorks Animation Television",
-      "País": "Estados Unidos",
-      "Género": "Animación, Comedia, Fantasía, Aventura",
-      "Idioma original": "Inglés"
+      "Episodios": "78 + 1 Especial",
+      "Formato": "MKV",
+      "Peso": "55.10 GB"
     },
 
     "downloads": [
       {
-        "label": "Temporada 1 · Latino",
-        "url": "#"
+        "label": "Serie Completa (1-6) · Latino",
+        "url": "https://1024terabox.com/s/1fwHVMVps4S0wQAlKjertIQ"
       }
     ]
   }
