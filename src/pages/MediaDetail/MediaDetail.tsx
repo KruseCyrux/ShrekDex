@@ -81,6 +81,9 @@ const MediaDetail = () => {
     (item) => item.id === id
   );
 
+  const isVideoGame =
+    location.pathname.startsWith('/video-games/');
+
   const backPath =
 
   location.pathname.startsWith('/spin-offs/')
@@ -174,16 +177,18 @@ const MediaDetail = () => {
 
       </section>
 
-      <section className="detail-section">
+      {!isVideoGame && (
+        <section className="detail-section">
 
-        <h2>Galería</h2>
+          <h2>Galería</h2>
 
-        <GalleryCarousel
-          images={media.gallery}
-          title={media.title}
-        />
+          <GalleryCarousel
+            images={media.gallery}
+            title={media.title}
+          />
 
-      </section>
+        </section>
+      )}
 
       <section className="detail-section">
 

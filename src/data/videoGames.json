@@ -3,53 +3,635 @@
     "id": "shrek-2001",
     "title": "Shrek",
     "year": 2001,
-    "cover": "/images/video-games/shrek-2001.jpg",
-    "description": "Videojuego basado en la primera película de Shrek. El jugador controla al ogro en una aventura que adapta distintos momentos y personajes de la película, incorporando escenarios, enemigos y situaciones propias de un videojuego.",
+    "cover": "/images/games/primary/Poster1.png",
+    "description": "Después de los acontecimientos de la primera película de Shrek, Fiona es secuestrada repentinamente por Merlín, un malvado hechicero que la lleva hasta su fortaleza, la Dark Tower Fortress of Pure Evil.",
     "type": "Aventura",
     "gameCategory": "principales",
-    "platforms": [
-      "PlayStation",
-      "Game Boy Advance",
-      "Xbox",
-      "PC"
-    ],
-    "developer": "TBA",
-    "publisher": "TBA",
-    "gallery": [
-      "/images/video-games/shrek-2001-1.jpg",
-      "/images/video-games/shrek-2001-2.jpg",
-      "/images/video-games/shrek-2001-3.jpg"
-    ],
     "details": [
       {
         "label": "Lanzamiento",
-        "value": "2001"
-      },
-      {
-        "label": "Género",
-        "value": "Aventura"
-      },
-      {
-        "label": "Categoría",
-        "value": "Principales"
-      },
-      {
-        "label": "Plataformas",
-        "value": "PlayStation, Game Boy Advance, Xbox, PC"
+        "value": "Noviembre 15, 2001"
       },
       {
         "label": "Desarrollador",
-        "value": "TBA"
+        "value": "Digital Illusions CE"
       },
       {
-        "label": "Distribuidor",
-        "value": "TBA"
+        "label": "Editorial",
+        "value": "TDK Mediactive"
+      },
+      {
+        "label": "Plataformas",
+        "value": "Xbox"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "ISO & XISO"
+      },
+       {
+        "label": "Peso",
+        "value": "6.4 GB & 237 MB"
       }
     ],
     "downloads": [
       {
-        "label": "Descargar",
-        "url": "#"
+        "label": "XBOX - ROM",
+        "url": "https://vimm.net/vault/15906"
+      }
+    ]
+  },
+  {
+    "id": "shrek-extra-large",
+    "title": "Shrek Extra Large",
+    "year": 2002,
+    "cover": "/images/games/primary/Poster2.png",
+    "description": "El juego está basado en la serie de películas de Shrek y fue desarrollado exclusivamente para Nintendo GameCube. Es una adaptación de Shrek, originalmente lanzado para la Xbox.",
+    "type": "Aventura",
+    "gameCategory": "principales",
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "Octubre 31, 2002"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "Digital Illusions CE"
+      },
+      {
+        "label": "Editorial",
+        "value": "TDK Mediactive"
+      },
+      {
+        "label": "Plataformas",
+        "value": "Nintendo GameCube"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "CISO"
+      },
+      {
+        "label": "Peso",
+        "value": "246 MB"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "NGC - ROM",
+        "url": "https://vimm.net/vault/7758"
+      }
+    ]
+  },
+  {
+    "id": "shrek-2",
+    "title": "Shrek 2",
+    "year": 2004,
+    "cover": "/images/games/primary/Poster3.png",
+    "description": "Shrek 2 es un videojuego basado en la película del mismo nombre. El jugador puede controlar a Shrek o a nueve de sus amigos a lo largo de la aventura y recorrer 11 niveles, pudiendo cambiar entre los 4 personajes disponibles en cada nivel.",
+    "type": "Aventura",
+    "gameCategory": "principales",
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "Abril 28, 2004"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "Luxoflux, Beenox & Vicarious Visions"
+      },
+      {
+        "label": "Editorial",
+        "value": "Activision"
+      },
+      {
+        "label": "Plataformas",
+        "value": "Nintendo GameCube, Xbox, PlayStation 2, Game Boy Advance"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "Variado según la plataforma"
+      },
+      {
+        "label": "Peso",
+        "value": "Variado según la plataforma"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "NGC - 892 MB (CISO)",
+        "url": "https://vimm.net/vault/7757"
+      },
+      {
+        "label": "Xbox - 361 MB (ISO)",
+        "url": "https://vimm.net/vault/26521"
+      },
+      {
+        "label": "PS2 - 594 MB (ISO)",
+        "url": "https://vimm.net/vault/9244"
+      },
+      {
+        "label": "GBA - 3.68 MB (gba)",
+        "url": "https://vimm.net/vault/5715"
+      }
+    ]
+  },
+  {
+    "id": "shrek-2-team-action",
+    "title": "Shrek 2: Team Action",
+    "year": 2004,
+    "cover": "/images/games/primary/Poster4.png",
+    "description": "A diferencia de su versión para consolas, presenta varias características propias. La principal diferencia es que se trata de un juego de plataformas y combate, en el que cada nivel está diseñado para utilizar a un personaje específico. Además, utiliza el Unreal Engine 2, desarrollado por Epic Games. En PC es conocido como Shrek 2: Team Action, debido a que ya se había lanzado anteriormente otro videojuego de Shrek 2 para esta plataforma.",
+    "type": "Aventura",
+    "gameCategory": "principales",
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "2004"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "Beenox & KnowWonder, Inc."
+      },
+      {
+        "label": "Editorial",
+        "value": "Activision & Aspyr Media"
+      },
+      {
+        "label": "Plataformas",
+        "value": "Windows & OS X"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "Variado según la plataforma"
+      },
+      {
+        "label": "Peso",
+        "value": "Variado según la plataforma"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "Windows - 412 MB (ISO)",
+        "url": "https://www.myabandonware.com/game/shrek-2-e7h#download"
+      },
+      {
+        "label": "OS X - 577 MB (Disc)",
+        "url": "https://www.myabandonware.com/game/shrek-2-e7h#download"
+      }
+    ]
+  },
+  {
+    "id": "shrek-the-third",
+    "title": "Shrek The Third",
+    "year": 2007,
+    "cover": "/images/games/primary/Poster5.png",
+    "description": "La historia de Shrek the Third está basada en la película del mismo nombre. Después de que Shrek se convierte en una de las opciones para ocupar el trono de Muy Muy Lejano, emprende una aventura para encontrar a Arturo, quien debe convertirse en el nuevo rey. Mientras tanto, el Príncipe Encantador intenta tomar la ciudad por la fuerza y apoderarse del trono.",
+    "type": "Aventura",
+    "gameCategory": "principales",
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "Mayo 15, 2007"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "Amaze Entertainment & Vicarious Visions (GBA & NDS)"
+      },
+      {
+        "label": "Editorial",
+        "value": "Activision"
+      },
+      {
+        "label": "Plataformas",
+        "value": "Xbox 360, Nintendo Wii, Nintendo DS, Game Boy Advance, PlayStation 2, PlayStation Portable, Windows"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "Variado según la plataforma"
+      },
+      {
+        "label": "Peso",
+        "value": "Variado según la plataforma"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "X360 - 4.61 GB (ISO)",
+        "url": "https://vimm.net/vault/87986"
+      },
+      {
+        "label": "Wii - 2.4 GB (ISO)",
+        "url": "https://vimm.net/vault/64513"
+      },
+      {
+        "label": "NDS - 19.26 MB (nds)",
+        "url": "https://vimm.net/vault/19764"
+      },
+      {
+        "label": "GBA - 3.73 MB (gba)",
+        "url": "https://vimm.net/vault/5717"
+      },
+      {
+        "label": "PS2 - 789 MB (ISO)",
+        "url": "https://vimm.net/vault/9247"
+      },
+      {
+        "label": "PSP - 272 MB (ISO)",
+        "url": "https://vimm.net/vault/24261"
+      },
+      {
+        "label": "Windows - 2 GB (ISO)",
+        "url": "https://www.myabandonware.com/game/shrek-the-third-e7i#download"
+      }
+    ]
+  },
+  {
+    "id": "shrek-forever-after",
+    "title": "Shrek Forever After",
+    "year": 2010,
+    "cover": "/images/games/primary/Poster6.png",
+    "description": "A diferencia de los títulos anteriores de Shrek, el juego es una combinación de combate, rompecabezas y estrategia, dirigida a jugadores más jóvenes. Muchas de sus características implican alternar entre los cuatro protagonistas —Shrek, Fiona, Burro y el Gato con Botas— y utilizar sus habilidades para avanzar por los niveles.",
+    "type": "Aventura",
+    "gameCategory": "principales",
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "Mayo 12, 2010"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "XPEC Entertainment, Griptonite & Gameloft"
+      },
+      {
+        "label": "Editorial",
+        "value": "Activision"
+      },
+      {
+        "label": "Plataformas",
+        "value": "Xbox 360, PlayStation 3, Nintendo Wii, Nintendo DS & Windows"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "Variado según la plataforma"
+      },
+      {
+        "label": "Peso",
+        "value": "Variado según la plataforma"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "X360 - 4.64 GB (ISO)",
+        "url": "https://vimm.net/vault/87828"
+      },
+      {
+        "label": "PS3 - 3.36 GB (ISO)",
+        "url": "https://vimm.net/vault/24909"
+      },
+      {
+        "label": "Wii - 2.41 GB (wbfs)",
+        "url": "https://vimm.net/vault/18090"
+      },
+      {
+        "label": "NDS - 50.07 MB (nds)",
+        "url": "https://vimm.net/vault/19760"
+      },
+      {
+        "label": "Windows - 3.7 GB (ISO)",
+        "url": "https://www.myabandonware.com/game/shrek-forever-after-the-final-chapter-yjn#download"
+      }
+    ]
+  },
+
+  {
+    "id": "shrek-swamp-kart-speedway",
+    "title": "Shrek: Swamp Kart Speedway",
+    "year": 2002,
+    "cover": "/images/games/racing/Poster1.png",
+    "description": "El juego ha sido duramente criticado por sus malos controles, su manejo deficiente y su lentitud general. Es considerado uno de los peores juegos de carreras basados en una franquicia, ocupando únicamente el segundo lugar frente a otro título infame: M&M's Kart Racing.",
+    "type": "Carreras",
+    "gameCategory": "carreras",
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "Marzo 19, 2002"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "Prolific Publishing"
+      },
+      {
+        "label": "Editorial",
+        "value": "TDK Mediactive"
+      },
+      {
+        "label": "Plataformas",
+        "value": "Game Boy Advance"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "gba"
+      },
+      {
+        "label": "Peso",
+        "value": "2.43 MB"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "GBA - ROM",
+        "url": "https://vimm.net/vault/5714"
+      }
+    ]
+  },
+  {
+    "id": "shrek-smash-n-crash-racing",
+    "title": "Shrek Smash N' Crash Racing",
+    "year": 2006,
+    "cover": "/images/games/racing/Poster2.png",
+    "description": "El juego presenta escenarios y personajes de las películas. Los jugadores pueden elegir entre doce personajes de Shrek y utilizar habilidades de carrera y combate para derrotar a los demás competidores.",
+    "type": "Carreras",
+    "gameCategory": "carreras",
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "Noviembre 14, 2006"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "Torus Games"
+      },
+      {
+        "label": "Editorial",
+        "value": "Activision"
+      },
+      {
+        "label": "Plataformas",
+        "value": "PlayStation 2, PlayStation Portable, Nintendo GameCube, Nintendo DS & Game Boy Advance"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "Variado según la plataforma"
+      },
+      {
+        "label": "Peso",
+        "value": "Variado según la plataforma"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "PS2 - 476 MB (ISO)",
+        "url": "https://vimm.net/vault/9245"
+      },
+      {
+        "label": "PSP - 183 MB (ISO)",
+        "url": "https://vimm.net/vault/24162"
+      },
+      {
+        "label": "NGC - 462 MB (CISO)",
+        "url": "https://vimm.net/vault/7759"
+      },
+      {
+        "label": "NDS - 15.47 MB (nds)",
+        "url": "https://vimm.net/vault/19762"
+      },
+      {
+        "label": "GBA - 2.88 MB (gba)",
+        "url": "https://vimm.net/vault/5712"
+      }
+    ]
+  },
+  {
+    "id": "shrek-kart",
+    "title": "Shrek Kart",
+    "year": 2009,
+    "cover": "/images/games/racing/Poster3.png",
+    "description": "Aunque la historia solo se establece en la introducción del juego, esta permite conocer el motivo por el que los personajes participan en las carreras. Según cuenta un narrador fuera de pantalla, Humpty Dumpty sufrió una grave lesión tras caer de un muro. Debido a la gravedad de sus heridas, las facturas del hospital superaron la cantidad que Humpty podía pagar. Como acto de caridad, el reino de Muy Muy Lejano decide organizar un torneo de carreras para recaudar dinero y ayudar a Humpty a pagar su deuda. Shrek, junto con sus amigos y familiares, se entera del torneo y decide participar.",
+    "type": "Carreras",
+    "gameCategory": "carreras",
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "Octubre 09, 2009"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "Gameloft"
+      },
+      {
+        "label": "Editorial",
+        "value": "Gameloft"
+      },
+      {
+        "label": "Plataformas",
+        "value": "iOS, Android & Symbian"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "Variado según la plataforma"
+      },
+      {
+        "label": "Peso",
+        "value": "Variado según la plataforma"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "iOS - 150 MB (IPA)",
+        "url": "https://archive.org/details/hi-fi-game.com-shrek-kart"
+      },
+      {
+        "label": "Android - 131 MB (APK)",
+        "url": "https://archive.org/details/shrek-kart-hd-v-1.0.0-free"
+      },
+      {
+        "label": "Symbian - 70 MB (SKN)",
+        "url": "https://www.myabandonware.com/game/shrek-kart-xul#download"
+      }
+    ]
+  },
+  {
+    "id": "dreamworks-super-star-kartz",
+    "title": "DreamWorks Super Star Kartz",
+    "year": 2011,
+    "cover": "/images/games/racing/Poster4.png",
+    "description": "Es un juego de carreras de karts en el que los jugadores pueden ponerse al volante de algunos de los personajes más populares de DreamWorks. El título reúne a personajes de franquicias como Shrek, Madagascar, Cómo entrenar a tu dragón y Monstruos contra alienígenas, cada uno con sus propios vehículos y habilidades.",
+    "type": "Carreras",
+    "gameCategory": "carreras",
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "2011"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "Blitz Games"
+      },
+      {
+        "label": "Editorial",
+        "value": "Activision"
+      },
+      {
+        "label": "Plataformas",
+        "value": "Xbox 360, PlayStation 3, Nintendo Wii, Nintendo DS & Nintendo 3DS"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "Variado según la plataforma"
+      },
+      {
+        "label": "Peso",
+        "value": "Variado según la plataforma"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "X360 - 6.28 GB (ISO)",
+        "url": "https://vimm.net/vault/79339"
+      },
+      {
+        "label": "PS3 - 1.2 GB (ISO)",
+        "url": "https://vimm.net/vault/24910"
+      },
+      {
+        "label": "Wii - 789 MB (wbfs)",
+        "url": "https://vimm.net/vault/17411"
+      },
+      {
+        "label": "NDS - 49.51 MB (nds)",
+        "url": "https://vimm.net/vault/19893"
+      },
+      {
+        "label": "N3DS - 195 MB (cci)",
+        "url": "https://vimm.net/vault/97322"
+      }
+    ]
+  },
+  {
+    "id": "dreamworks-all-star-kart-racing-rally-edition",
+    "title": "DreamWorks All-Star Kart Racing (Rally Edition)",
+    "year": 2023,
+    "cover": "/images/games/racing/Poster5.png",
+    "description": "DreamWorks All-Star Kart Racing es un juego de carreras de karts que reúne a personajes de algunas de las franquicias más populares de DreamWorks. Los jugadores pueden ponerse al volante de personajes como Shrek, Po, el Gato con Botas, Tigresa y personajes de Madagascar, entre otros.",
+    "type": "Carreras",
+    "gameCategory": "carreras",
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "Noviembre 03, 2023"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "Bamtang Games"
+      },
+      {
+        "label": "Editorial",
+        "value": "GameMill Entertainment"
+      },
+      {
+        "label": "Plataformas",
+        "value": "Windows"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "EXE"
+      },
+      {
+        "label": "Peso",
+        "value": "7.23 GB"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "Juego Base + Rally Kart DLC",
+        "url": "https://steamrip.com/dreamworks-all-star-kart-racing-free-download-1z/"
       }
     ]
   }
