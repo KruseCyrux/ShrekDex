@@ -1,27 +1,97 @@
 [
   {
-    "id": "shrek-comic-example",
-    "title": "Shrek Comic Example",
+    "id": "shrek-dark-horse-comics",
+    "title": "Shrek (Dark Horse Comics)",
     "year": 2003,
+    "cover": "/images/comics/Poster1.png",
+    "description": "Adaptación al cómic inspirada en la película original de Shrek. Publicada por Dark Horse Comics, presenta una reinterpretación ilustrada de las aventuras del ogro verde, Fiona, Burro y otros personajes del universo de Muy Muy Lejano.",
     "type": "Cómic",
-    "cover": "/images/comics/shrek-comic-example/cover.jpg",
-    "description": "Ejemplo de ficha para los cómics de Shrek. Sustituye esta información por el material real que agregarás posteriormente.",
-    "gallery": [
-      "/images/comics/shrek-comic-example/1.jpg",
-      "/images/comics/shrek-comic-example/2.jpg",
-      "/images/comics/shrek-comic-example/3.jpg"
+    "details": [
+      {
+        "label": "Publicación",
+        "value": "Septiembre - Diciembre (2003)"
+      },
+      {
+        "label": "Editorial",
+        "value": "Dark Horse Comics"
+      },
+      {
+        "label": "Serie",
+        "value": "1/1"
+      },
+      {
+        "label": "Números",
+        "value": "03/03"
+      },
+      {
+        "label": "Escritor",
+        "value": "Mark Evanier"
+      },
+      {
+        "label": "Dibujante",
+        "value": "Ramón Bachs"
+      },
+      {
+        "label": "Tintador",
+        "value": "Raúl Fernández"
+      },
+      {
+        "label": "Idioma",
+        "value": "Español"
+      }
     ],
-    "details": {
-      "Título": "Shrek Comic Example",
-      "Año": "2003",
-      "Formato": "Cómic",
-      "Editorial": "DreamWorks",
-      "Idioma": "Inglés"
-    },
     "downloads": [
       {
-        "label": "Leer / Descargar",
-        "url": "#"
+        "label": "Serie Completa (2003)",
+        "url": "https://buzzheavier.com/yvsjdornyhjm"
+      }
+    ]
+  },
+  {
+    "id": "shrek-kazooic-comics",
+    "title": "Shrek (Kazooic Comics)",
+    "year": 2010,
+    "cover": "/images/comics/Poster2.png",
+    "description": "Serie de historietas basada en la franquicia de Shrek publicada por Kazooic Comics. Amplía el universo de los personajes mediante historias originales protagonizadas por Shrek, Fiona, Burro, Gato con Botas y otros habitantes de Muy Muy Lejano.",
+    "type": "Cómic",
+    "details": [
+      {
+        "label": "Publicación",
+        "value": "Septiembre 2010 - Diciembre 2011"
+      },
+      {
+        "label": "Editorial",
+        "value": "Ape Entertainment"
+      },
+      {
+        "label": "Serie",
+        "value": "1/1"
+      },
+      {
+        "label": "Números",
+        "value": "04/04"
+      },
+      {
+        "label": "Escritor",
+        "value": "Arie Kaplan"
+      },
+      {
+        "label": "Dibujante",
+        "value": "Jason M. Burns, Kevin Freeman & Scott Shaw"
+      },
+      {
+        "label": "Tintador",
+        "value": "Christine Larsen"
+      },
+      {
+        "label": "Idioma",
+        "value": "Inglés"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "Serie Completa (2010 - 2011)",
+        "url": "https://buzzheavier.com/pbdfhdl6v6uw"
       }
     ]
   }

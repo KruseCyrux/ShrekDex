@@ -177,7 +177,7 @@ const MediaDetail = () => {
 
       </section>
 
-      {!isVideoGame && (
+      {media.gallery && media.gallery.length > 0 && (
         <section className="detail-section">
 
           <h2>Galería</h2>
