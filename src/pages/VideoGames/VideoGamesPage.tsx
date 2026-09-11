@@ -188,6 +188,10 @@ const VideoGamesPage = () => {
             infantiles o experiencias educativas.
           </p>
 
+          <p>
+              <strong>NOTA:</strong> Algunos juegos no pude encontrarlos, estos fueron: Shrek 2: Trivia, Shrek 2: Castle Run, Double Trouble, Imperial Peril, Forever After (Versión Educacional & Sky Gamestar).
+            </p>
+
         </div>
 
       </section>

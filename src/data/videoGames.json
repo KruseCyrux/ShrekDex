@@ -2112,5 +2112,201 @@
         "url": "https://apkpure.com/shrek-sugar-fever-puzzle-games/com.generagames.shrek"
       }
     ]
+  },
+    {
+    "id": "shrek-dragons-tale",
+    "title": "Shrek: Dragon's Tale",
+    "year": 2006,
+    "cover": "/images/games/education/Poster1.png",
+    "description": "Título educativo protagonizado por Dragona que combina actividades de lectura, aprendizaje y entretenimiento para niños pequeños dentro del universo de Shrek.",
+    "type": "Educativo",
+    "gameCategory": "educativos",
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "2006"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "VTech"
+      },
+      {
+        "label": "Editorial",
+        "value": "VTech"
+      },
+      {
+        "label": "Plataformas",
+        "value": "PC"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "bin"
+      },
+      {
+        "label": "Peso",
+        "value": "3.8 MB"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "PC - ROM",
+        "url": "https://archive.org/details/shrek-dragons-tale-usa"
+      }
+    ]
+  },
+  {
+    "id": "arthurs-school-day-adventure",
+    "title": "Shrek the Third: Arthur's School Day Adventure",
+    "year": 2007,
+    "cover": "/images/games/education/Poster2.png",
+    "description": "Actividad educativa protagonizada por Arturo que propone ejercicios y minijuegos enfocados en el aprendizaje para público infantil.",
+    "type": "Educativo",
+    "gameCategory": "educativos",
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "2007"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "DreamWorks SKG"
+      },
+      {
+        "label": "Editorial",
+        "value": "VTech"
+      },
+      {
+        "label": "Plataformas",
+        "value": "PC"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "bin"
+      },
+      {
+        "label": "Peso",
+        "value": "4.0 MB"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "PC - ROM",
+        "url": "https://archive.org/details/51jNw5kbXVL.SY450"
+      }
+    ]
+  },
+  {
+    "id": "the-search-for-arthur",
+    "title": "Shrek the Third: The Search for Arthur",
+    "year": 2007,
+    "cover": "/images/games/education/Poster3.png",
+    "description": "Juego educativo basado en Shrek the Third en el que los jugadores acompañan a los personajes en la búsqueda de Arturo mediante actividades y desafíos didácticos.",
+    "type": "Educativo",
+    "gameCategory": "educativos",
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "2007"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "VTech"
+      },
+      {
+        "label": "Editorial",
+        "value": "VTech"
+      },
+      {
+        "label": "Plataformas",
+        "value": "PC"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "ISO"
+      },
+      {
+        "label": "Peso",
+        "value": "246 MB"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "PC - ROM",
+        "url": "https://www.myabandonware.com/game/shrek-the-third-the-search-for-arthur-y2y#download"
+      }
+    ]
+  },
+  {
+    "id": "shrek-2-paint-and-create",
+    "title": "Shrek 2: Paint & Create",
+    "year": 2004,
+    "cover": "/images/games/education/Poster4.png",
+    "description": "Programa educativo y creativo que permite colorear, dibujar y realizar actividades artísticas inspiradas en los personajes de Shrek 2.",
+    "type": "Educativo",
+    "gameCategory": "educativos",
+    "details": [
+      {
+        "label": "Lanzamiento",
+        "value": "2004"
+      },
+      {
+        "label": "Desarrollador",
+        "value": "Alternative Software & Buka Entertainment"
+      },
+      {
+        "label": "Editorial",
+        "value": "Alternative Software"
+      },
+      {
+        "label": "Plataformas",
+        "value": "PC"
+      },
+      {
+        "label": "Idiomas",
+        "value": "Inglés"
+      },
+      {
+        "label": "Subtítulos",
+        "value": "Si"
+      },
+      {
+        "label": "Formato",
+        "value": "ISO"
+      },
+      {
+        "label": "Peso",
+        "value": "614 MB"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "PC - ROM",
+        "url": "https://www.myabandonware.com/game/dreamworks-shrek-2-paint-create-xc6#download"
+      }
+    ]
   }
 ]
