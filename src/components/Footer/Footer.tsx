@@ -5,7 +5,6 @@ import {
   siX,
   siTiktok,
   siInstagram,
-  siYoutube,
   siTelegram,
 } from 'simple-icons';
 

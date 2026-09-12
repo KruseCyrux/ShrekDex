@@ -25,12 +25,32 @@ import DownloadButtons
 
 import './MediaDetail.scss';
 
+interface MediaItem {
+  id: string;
+  title: string;
+  year: number;
+  type: string;
+  cover: string;
+  description: string;
+  gallery?: string[];
+  details:
+    | Record<string, string>
+    | {
+        label: string;
+        value: string;
+      }[];
+  downloads: {
+    label: string;
+    url: string;
+  }[];
+}
+
 const MediaDetail = () => {
   const { id } = useParams();
 
   const location = useLocation();
 
-  const getCollection = () => {
+  const getCollection = (): MediaItem[] => {
     if (location.pathname.startsWith('/movies/')) {
       return movies;
     }
@@ -76,45 +96,40 @@ const MediaDetail = () => {
     (item) => item.id === id
   );
 
-  const isVideoGame =
-    location.pathname.startsWith('/video-games/');
-
   const backPath =
-
-  location.pathname.startsWith('/spin-offs/')
-    ? '/spin-offs'
-    : location.pathname.startsWith('/shorts/')
-      ? '/shorts'
-      : location.pathname.startsWith('/spin-off-shorts/')
-        ? '/spin-off-shorts'
-        : location.pathname.startsWith('/series/')
-          ? '/series'
-          : location.pathname.startsWith('/video-games/')
-            ? '/video-games'
-            : location.pathname.startsWith('/comics/')
-              ? '/comics'
-              : location.pathname.startsWith('/books/')
-                ? '/books'
+    location.pathname.startsWith('/spin-offs/')
+      ? '/spin-offs'
+      : location.pathname.startsWith('/shorts/')
+        ? '/shorts'
+        : location.pathname.startsWith('/spin-off-shorts/')
+          ? '/spin-off-shorts'
+          : location.pathname.startsWith('/series/')
+            ? '/series'
+            : location.pathname.startsWith('/video-games/')
+              ? '/video-games'
+              : location.pathname.startsWith('/comics/')
+                ? '/comics'
+                : location.pathname.startsWith('/books/')
+                  ? '/books'
                   : location.pathname.startsWith('/extras/')
                     ? '/extras'
                     : '/movies';
 
   const backLabel =
-
-  location.pathname.startsWith('/spin-offs/')
-    ? '← Volver a Spin-Offs'
-    : location.pathname.startsWith('/shorts/')
-      ? '← Volver a Cortos'
-      : location.pathname.startsWith('/spin-off-shorts/')
-        ? '← Volver a Cortos Spin-Offs'
-        : location.pathname.startsWith('/series/')
-          ? '← Volver a Series'
-          : location.pathname.startsWith('/video-games/')
-            ? '← Volver a Videojuegos'
-            : location.pathname.startsWith('/comics/')
-              ? '← Volver a Cómics'
-              : location.pathname.startsWith('/books/')
-                ? '← Volver a Libros'
+    location.pathname.startsWith('/spin-offs/')
+      ? '← Volver a Spin-Offs'
+      : location.pathname.startsWith('/shorts/')
+        ? '← Volver a Cortos'
+        : location.pathname.startsWith('/spin-off-shorts/')
+          ? '← Volver a Cortos Spin-Offs'
+          : location.pathname.startsWith('/series/')
+            ? '← Volver a Series'
+            : location.pathname.startsWith('/video-games/')
+              ? '← Volver a Videojuegos'
+              : location.pathname.startsWith('/comics/')
+                ? '← Volver a Cómics'
+                : location.pathname.startsWith('/books/')
+                  ? '← Volver a Libros'
                   : location.pathname.startsWith('/extras/')
                     ? '← Volver a Extras'
                     : '← Volver a Películas';
@@ -168,16 +183,14 @@ const MediaDetail = () => {
 
       </section>
 
-      {media.gallery && media.gallery.length > 0 && (
+      {Array.isArray(media.gallery) && media.gallery.length > 0 && (
         <section className="detail-section">
-
           <h2>Galería</h2>
 
           <GalleryCarousel
             images={media.gallery}
             title={media.title}
           />
-
         </section>
       )}
 
