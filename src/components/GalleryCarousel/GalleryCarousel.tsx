@@ -63,7 +63,7 @@ const GalleryCarousel = ({
       <div className="gallery-main">
 
         <img
-          src={images[currentIndex]}
+          src={`${import.meta.env.BASE_URL}${images[currentIndex].replace(/^\/+/, '')}`}
           alt={`${title} - captura ${currentIndex + 1}`}
         />
 
