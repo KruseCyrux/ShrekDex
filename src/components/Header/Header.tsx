@@ -39,10 +39,6 @@ const sections = [
     name: 'Libros',
     path: '/books',
   },
-  {
-    name: 'Música',
-    path: '/music',
-  },
 ];
 
 const Header = () => {
