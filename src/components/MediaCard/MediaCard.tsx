@@ -45,7 +45,7 @@ const MediaCard = ({
         <div className="media-card-image">
 
           <img
-            src={cover}
+            src={`${import.meta.env.BASE_URL}${cover.replace(/^\/+/, '')}`}
             alt={`Póster de ${title}`}
           />
 

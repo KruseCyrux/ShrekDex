@@ -168,7 +168,7 @@ const MediaDetail = () => {
 
         <div className="detail-cover">
           <img
-            src={media.cover}
+            src={`${import.meta.env.BASE_URL}${media.cover.replace(/^\/+/, '')}`}
             alt={`Póster de ${media.title}`}
           />
         </div>
