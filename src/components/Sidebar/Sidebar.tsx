@@ -21,7 +21,6 @@ import videoGames from '../../data/videoGames.json';
 import extras from '../../data/extras.json';
 import comics from '../../data/comics.json';
 import books from '../../data/books.json';
-import music from '../../data/music.json';
 
 import './Sidebar.scss';
 
@@ -137,15 +136,6 @@ const Sidebar = () => {
           path: `/books/${item.id}`,
         })),
 
-        ...music.map((item) => ({
-          id: item.id,
-          title: item.title,
-          year: item.year,
-          type: item.type,
-          category: 'Música',
-          path: `/music/${item.id}`,
-        })),
-
       ];
 
     }, []);
@@ -234,11 +224,6 @@ const Sidebar = () => {
       {
         label: 'Libros',
         count: books.length,
-      },
-
-      {
-        label: 'Música',
-        count: music.length,
       },
 
     ], []);
