@@ -14,32 +14,27 @@ const Footer = () => {
     {
       name: 'Facebook',
       icon: siFacebook,
-      url: '#',
+      url: 'https://www.facebook.com/groups/consejosnoiroom',
     },
     {
       name: 'X',
       icon: siX,
-      url: '#',
+      url: 'https://x.com/consejosnoiroom',
     },
     {
       name: 'TikTok',
       icon: siTiktok,
-      url: '#',
+      url: 'https://www.tiktok.com/@qrsnoiroom',
     },
     {
       name: 'Instagram',
       icon: siInstagram,
-      url: '#',
-    },
-    {
-      name: 'YouTube',
-      icon: siYoutube,
-      url: '#',
+      url: 'https://www.instagram.com/consejosnoiroom/',
     },
     {
       name: 'Telegram',
       icon: siTelegram,
-      url: '#',
+      url: 'https://t.me/LosConsejosDeHomeroGrupo',
     },
   ];
 
