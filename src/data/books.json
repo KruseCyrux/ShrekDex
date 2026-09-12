@@ -1,42 +1,45 @@
 [
   {
-    "id": "shrek-2001-book",
-    "title": "Shrek",
-    "year": 2001,
+    "id": "shrek-book",
+    "title": "Shrek!",
+    "year": 1990,
+    "cover": "/images/books/Poster1.png",
+    "description": "Libro infantil ilustrado escrito y dibujado por William Steig. La obra narra las aventuras de Shrek, un ogro poco convencional que abandona el hogar de sus padres para recorrer el mundo en busca de su destino. Publicado años antes de la película de DreamWorks, este libro sirvió como inspiración para la creación de la exitosa franquicia cinematográfica.",
     "type": "Libro",
-    "cover": "/images/books/shrek-2001-book/cover.jpg",
-    "description": "Libro basado en el universo de Shrek, publicado como material complementario a la película. Esta ficha sirve como ejemplo para organizar los libros relacionados con la franquicia.",
-    "gallery": [
-      "/images/books/shrek-2001-book/1.jpg",
-      "/images/books/shrek-2001-book/2.jpg",
-      "/images/books/shrek-2001-book/3.jpg"
-    ],
     "details": [
       {
-        "label": "Título",
-        "value": "Shrek"
+        "label": "Publicación",
+        "value": "1990"
       },
       {
-        "label": "Año",
-        "value": "2001"
-      },
-      {
-        "label": "Formato",
-        "value": "Libro"
-      },
-      {
-        "label": "Idioma",
-        "value": "Inglés"
+        "label": "Autor",
+        "value": "William Steig"
       },
       {
         "label": "Editorial",
-        "value": "TBA"
+        "value": "Farrar, Straus and Giroux"
+      },
+      {
+        "label": "Categoría",
+        "value": "Libro Infantil"
+      },
+      {
+        "label": "Idioma",
+        "value": "Español"
+      },
+      {
+        "label": "Formato",
+        "value": "PDF & EPUB"
+      },
+      {
+        "label": "Peso",
+        "value": "Variado según el formato"
       }
     ],
     "downloads": [
       {
-        "label": "Leer / Descargar",
-        "url": "#"
+        "label": "PDF & EPUB",
+        "url": "https://ww3.lectulandia.com/book/shrek/"
       }
     ]
   }
